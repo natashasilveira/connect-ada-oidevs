@@ -87,6 +87,7 @@ class Header {
       }
       if (link.isDanger) {
         a.classList.add("danger");
+        a.setAttribute('id', 'logout');
       }
     });
 

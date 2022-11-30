@@ -107,3 +107,9 @@ repeteNewPass.addEventListener("input", () =>
   functions.repeteNewPassValidate(6)
 );
 //newPass.addEventListener("input", () => functions.isNewPassValidate(5));
+
+const logout = document.getElementById('logout');
+
+logout.addEventListener('click', function(){
+  database.currentUserInSession = "";
+})

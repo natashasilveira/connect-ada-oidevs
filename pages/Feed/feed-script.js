@@ -9,6 +9,7 @@ database.initialization();
 
 const currentImg = `${database.currentUserInSession.image}`;
 
+
 //renderizando header
 const header = new Header();
 header.addMenuLink("../../assets/home.svg", "./feed.html", true);
@@ -138,5 +139,11 @@ function renderAllCommentsByIdPost(idPost) {
     }
   });
 }
+
+const logout = document.getElementById('logout');
+
+logout.addEventListener('click', function(){
+  database.currentUserInSession = "";
+})
 
 renderPostCards();

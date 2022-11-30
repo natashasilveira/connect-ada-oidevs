@@ -19,3 +19,9 @@ header.addProfileDropdownLink("Seguindo", "../Following/following.html");
 header.addProfileDropdownLink("Sair", "../../index.html", false, true);
 header.renderMenuLinks();
 header.renderDropDownMenu(currentImage);
+
+const logout = document.getElementById('logout');
+
+logout.addEventListener('click', function(){
+  database.currentUserInSession = "";
+})

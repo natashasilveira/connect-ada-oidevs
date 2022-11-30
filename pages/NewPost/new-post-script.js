@@ -78,3 +78,9 @@ function backToOtherPage(e) {
 publishPostBtn.addEventListener("click", publishPost);
 
 cancelBtn.addEventListener("click", backToOtherPage);
+
+const logout = document.getElementById('logout');
+
+logout.addEventListener('click', function(){
+  database.currentUserInSession = "";
+})

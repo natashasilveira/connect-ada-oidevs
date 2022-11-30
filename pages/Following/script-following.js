@@ -69,4 +69,10 @@ function addFollowUserToFollowList(id) {
   database.users = database.currentUserInSession;
 }
 
+const logout = document.getElementById('logout');
+
+logout.addEventListener('click', function(){
+  database.currentUserInSession = "";
+})
+
 renderCards();
