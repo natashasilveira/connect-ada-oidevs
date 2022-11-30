@@ -32,12 +32,7 @@
 
 ## :books: Como executar
 
-Para visualizar siga os passos abaixo: 
-- Você deve ter o Git Bash instalado em seu computador (clique <a href="https://git-scm.com/download/win">aqui</a>);
-- Crie uma pasta em seu computador;
-- Abra o Git Bash dentro deste diretório;
-- Utilize o comando "git clone https://github.com/carolferraz/connect-ada-OiDevs.git".
-- Comece a navegação pela página index.html
+<a href="https://natashasilveira.github.io/connect-ada-oidevs/">Demo</a>
 
 ---
 
