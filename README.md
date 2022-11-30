@@ -57,8 +57,6 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 - <a href="https://www.figma.com/file/gn1HqPHgIcKFPHh0oxJZ3z/ConnectAda?node-id=0%3A1" >Layout do figma</a> 
 - <a href="https://lucid.app/lucidchart/c1915613-9be5-4f6b-8072-80940dfeed33/edit?viewport_loc=-40%2C-80%2C2380%2C1114%2CHWEp-vi-RSFO&invitationId=inv_f3f6710c-fed5-4949-b303-81ae35a441ac">Diagrama de Classes</a>
 
-Obs: O figma desse projeto foi criado pelas próprias desenvolvedoras servindo de base para o desenvolvimento.
-
 ---
 
 ## :rocket: Devs
